@@ -12,7 +12,7 @@ app.get('/', function (request, response) {
     console.log(url.parse(request.url,true).query)
     console.log("name: " + request.query.name)
     console.log("age: " + request.query.age)
-  response.send('This is a deployed version of node application deployed in heroku')
+  response.send('Application Running locally on Port 5000')
 })
 
 // POST method route
